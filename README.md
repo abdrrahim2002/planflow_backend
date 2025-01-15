@@ -3,6 +3,13 @@
 ## Project Overview
 PlanFlow is a full-stack project planning tool designed for efficient project management. This web application allows authenticated users to create, manage, and track their projects. Key features include AI-generated project descriptions, PDF export functionality, and a user-friendly dashboard for project management.
 
+---
+
+## [Live Demo](https://planflow-frontend.onrender.com) ⚙️
+## [Frontend Repo](https://github.com/abdrrahim2002/planflow_frontend) 📁
+
+---
+
 ## Screenshot
 
 ![Project Screenshot](https://raw.githubusercontent.com/abdrrahim2002/planflow_backend/refs/heads/main/images/1.png)
