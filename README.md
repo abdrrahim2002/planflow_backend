@@ -57,13 +57,13 @@ PlanFlow is a full-stack project planning tool designed for efficient project ma
 Ensure the following environment variables are set for proper project functionality:
 
 ```env
-HUGGING_FACE_API_TOKEN=
-SECRET_KEY=
-DEBUG=
-ALLOWED_HOSTS=
-EMAIL_HOST_USER=
-EMAIL_HOST_PASSWORD=
-CORS_ALLOWED_ORIGINS=
+HUGGING_FACE_API_TOKEN= tocken you get when creating a hugging face account
+SECRET_KEY= django secret key
+DEBUG= True/False
+ALLOWED_HOSTS= localhost,127.0.0.1,.onrender.com
+EMAIL_HOST_USER= Google email
+EMAIL_HOST_PASSWORD= Google email app password
+CORS_ALLOWED_ORIGINS= url of the frontend 
 ```
 
 
