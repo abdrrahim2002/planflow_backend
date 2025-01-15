@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Export</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+        }
+        h1 {
+            color: #333;
+        }
+        .project-detail {
+            margin-bottom: 2rem;
+        }
+        .project-detail p {
+            margin: 1rem 0;
+        }
+        .project-images {
+            margin-top: 2rem;
+        }
+        .project-images img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ project.title }} by {{ project.user.username }}</h1>
+    <div class="project-detail">
+        <p><strong>Description:</strong> {{ project.description }}</p>
+        <p><strong>Start Date:</strong> {{ project.startdate }}</p>
+        <p><strong>End Date:</strong> {{ project.enddate }}</p>
+        <p><strong>Category:</strong> {{ project.category }}</p>
+        <p><strong>Priority:</strong> {{ project.priority }}</p>
+        <p><strong>Status:</strong> {{ project.status }}</p>
+    </div>
+    <div class="project-images">
+        {% if project.image1 %}
+            <img src="{{ image1_url }}" alt="Image 1">
+        {% endif %}
+        {% if project.image2 %}
+            <img src="{{ image2_url }}" alt="Image 2">
+        {% endif %}
+    </div>
+</body>
+</html>
